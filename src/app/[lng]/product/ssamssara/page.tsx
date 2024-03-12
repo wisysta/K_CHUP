@@ -33,7 +33,7 @@ export default function Page() {
                                 <br />
                                 찍어먹는 세계의 새로운 강자
                             </h2>
-                            <p>“쌈장은 쌈싸라 쌈장!”</p>
+                            <p>"쌈장은 쌈싸라 쌈장!"</p>
                         </div>
                     </div>
                 </div>
