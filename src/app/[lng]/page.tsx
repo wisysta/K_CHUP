@@ -25,23 +25,23 @@ export default async function Page({ params: { lng } }: Props) {
                 ></video>
                 <div className={style.background_video}></div>
             </section>
-            <section>
-                <Link href={"/about/our-story"}>
+            <Link href={"/about/our-story"}>
+                <section>
                     <div className={cx(style.text_over_image, style.story)}>
                         <div className={style.sub_title}>BRAND STORY</div>
                         <div className={style.main_title}>WHO WE ARE?</div>
                     </div>
                     <Image src={MainStory} alt="main story thumbnail" />
-                </Link>
-            </section>
-            <section>
-                <Link href={"/product/kchup"}>
+                </section>
+            </Link>
+            <Link href={"/product/kchup"}>
+                <section>
                     <div className={cx(style.text_over_image, style.product)}>
                         <div className={style.main_title}>OUR PRODUCT</div>
                     </div>
                     <Image src={MainProduct} alt="main product thumbnail" />
-                </Link>
-            </section>
+                </section>
+            </Link>
         </main>
     );
 }

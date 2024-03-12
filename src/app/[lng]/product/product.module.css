@@ -1,14 +1,93 @@
-.container section {
+.container .main {
+    position: relative;
     margin-top: 84px;
     display: flex;
     width: 100%;
 }
 
 .container section article {
+    cursor: pointer;
     width: 100%;
 }
 
 .container section img {
     width: 100%;
     height: 100%;
+}
+
+.container .text_over_image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container section .main_title {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.container section .sub_title {
+    color: white;
+    font-size: 21px;
+    margin-bottom: -8px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 56vw;
+}
+
+.wrapper .right,
+.wrapper .left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.text_with_section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_with_section h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+
+.text_with_section p {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.half_height {
+    text-align: right;
+    justify-content: end;
+    height: 80%;
+}
+
+.half_height p {
+    font-size: 21px;
+}
+
+.bg_orange {
+    background-color: #ee691c;
 }

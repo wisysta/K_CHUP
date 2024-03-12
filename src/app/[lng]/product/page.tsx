@@ -8,20 +8,20 @@ import Link from "next/link";
 export default async function Page() {
     return (
         <main className={styles.container}>
-            <section>
+            <section className={styles.main}>
                 <article>
                     <Link href={"/product/hot-kchup"}>
-                        <Image src={P0101} alt="product1" />
-                    </Link>
-                </article>
-                <article>
-                    <Link href={"/product/ssamssara"}>
                         <Image src={P0201} alt="product2" />
                     </Link>
                 </article>
                 <article>
+                    <Link href={"/product/ssamssara"}>
+                        <Image src={P0101} alt="product1" />
+                    </Link>
+                </article>
+                <article>
                     <Link href={"/product/hot-kchup"}>
-                        <Image src={P0202} alt="product2" />{" "}
+                        <Image src={P0202} alt="product2" />
                     </Link>
                 </article>
             </section>

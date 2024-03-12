@@ -3,6 +3,7 @@
 }
 
 .container section {
+    position: relative;
     height: 860px;
     width: 100%;
 }
