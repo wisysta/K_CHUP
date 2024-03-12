@@ -1,0 +1,40 @@
+.selector {
+    display: flex;
+    color: var(--primary-font-color);
+    cursor: pointer;
+    position: relative;
+}
+
+.selector > span:first-child {
+    margin-right: 8px;
+}
+
+.btn_down {
+    display: flex;
+}
+
+.lang_menu {
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+.main_lang {
+    min-width: 20px;
+    margin-right: 4px;
+    display: inline-block;
+}
+
+.lang_menu a {
+    text-align: start;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+    letter-spacing: -0.2px;
+}
+
+.upper_bar {
+    width: 38px;
+    height: 2px;
+    background-color: var(--primary-font-color);
+}

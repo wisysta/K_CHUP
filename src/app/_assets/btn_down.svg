@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.4 27.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #eadc9a;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <polyline class="cls-1" points="2.12 2.12 23.2 23.2 44.28 2.12"/>
+  </g>
+</svg>
