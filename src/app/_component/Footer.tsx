@@ -29,7 +29,7 @@ export default function Footer() {
                             <p>OUR PRODUCT</p>
                             <ul>
                                 <li>
-                                    <Link href={"/product/kchup"}>K-CHUP</Link>
+                                    <Link href={"/product"}>K-CHUP</Link>
                                 </li>
                                 <li>
                                     <Link href={"/product/hot-kchup"}>

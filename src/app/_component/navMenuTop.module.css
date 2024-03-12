@@ -1,6 +1,10 @@
 .container {
     background: #ac063c;
     height: 84px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 .container ul {
     display: flex;

@@ -1,6 +1,9 @@
 .container {
+    position: relative;
+    width: 100%;
     background-color: #ac063c;
     height: 260px;
+    z-index: 100;
 }
 .container .wrapper {
     display: flex;

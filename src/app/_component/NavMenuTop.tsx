@@ -33,7 +33,7 @@ export default async function NavMenuTop({ lng }: Props) {
                             <Link href={"/about/our-story"}>ABOUT</Link>
                         </li>
                         <li>
-                            <Link href={"/product/kchup"}>OUR PRODUCT</Link>
+                            <Link href={"/product"}>OUR PRODUCT</Link>
                         </li>
                         <li>
                             <Link href={"/store"}>FIND US OUR STORE</Link>

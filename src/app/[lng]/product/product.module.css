@@ -1,0 +1,14 @@
+.container section {
+    margin-top: 84px;
+    display: flex;
+    width: 100%;
+}
+
+.container section article {
+    width: 100%;
+}
+
+.container section img {
+    width: 100%;
+    height: 100%;
+}
